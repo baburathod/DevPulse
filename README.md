@@ -6,9 +6,11 @@ This project was built to satisfy the Developer Productivity MVP assignment, eva
 
 ---
 
-## 🌐 Live Demo
-*   **Frontend**: [https://dev-pulse-sooty.vercel.app](https://dev-pulse-sooty.vercel.app)
+## 🌐 Project Links
+*   **Video Walkthrough**: [Watch on Google Drive](https://drive.google.com/file/d/1zzSis8EvuG5-5dCoFES78KSauGbwGPeA/view?usp=sharing)
+*   **Frontend (Live App)**: [https://dev-pulse-sooty.vercel.app](https://dev-pulse-sooty.vercel.app)
 *   **Backend API**: [https://devpulse-kddk.onrender.com/api/developers](https://devpulse-kddk.onrender.com/api/developers)
+*   **Miro User Journey**: [View Board](https://miro.com/app/board/uXjVHeaaT3Y=/?share_link_id=921609840310)
 
 ---
 
