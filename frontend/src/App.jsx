@@ -23,9 +23,11 @@ function App() {
   const [icData, setIcData] = useState(null);
   const [managerData, setManagerData] = useState(null);
 
+  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
   // Fetch developer list on mount
   useEffect(() => {
-    fetch('http://localhost:3001/api/developers')
+    fetch(`${API_BASE_URL}/api/developers`)
       .then(res => res.json())
       .then(data => {
         setDevelopers(data);
@@ -39,7 +41,7 @@ function App() {
   useEffect(() => {
     setLoading(true);
     if (view === 'IC' && selectedDevId) {
-      fetch(`http://localhost:3001/api/metrics/${selectedDevId}`)
+      fetch(`${API_BASE_URL}/api/metrics/${selectedDevId}`)
         .then(res => res.json())
         .then(data => {
           setIcData(data);
@@ -50,7 +52,7 @@ function App() {
           setLoading(false);
         });
     } else if (view === 'Manager') {
-      fetch(`http://localhost:3001/api/metrics/manager/MGR-01`)
+      fetch(`${API_BASE_URL}/api/metrics/manager/MGR-01`)
         .then(res => res.json())
         .then(data => {
           setManagerData(data);
