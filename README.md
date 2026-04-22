@@ -6,6 +6,12 @@ This project was built to satisfy the Developer Productivity MVP assignment, eva
 
 ---
 
+## 🌐 Live Demo
+*   **Frontend**: [https://dev-pulse-sooty.vercel.app](https://dev-pulse-sooty.vercel.app)
+*   **Backend API**: [https://devpulse-kddk.onrender.com/api/developers](https://devpulse-kddk.onrender.com/api/developers)
+
+---
+
 ## 🏗️ Architecture & Tech Stack
 
 This project was built with a clear separation of concerns to demonstrate full-stack engineering principles:
